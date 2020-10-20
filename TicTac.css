@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	background-color: black;
+	color: white;
+
+}
+h1 {
+	text-align: center;
+}
+#playerNames {
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+input {
+	width:170px;
+	height: 40px;
+	font-size: 30px;
+	margin: 0 30px 0 30px;
+}
+button {
+	width:100px;
+	height: 100px;
+	font-size: 30px;
+	color: black;
+	border-radius: 50%;
+	border: 1px solid white;;
+	background-color: white;
+
+}
+table {
+	margin: auto;
+}
+td {
+	width: 190px;
+	height: 190px;
+	text-align: center;
+	font-size: 100px;
+}
+tr td:nth-of-type(2) {
+	border-left: 2px solid white;
+	border-right:2px solid white;
+}
+tr:nth-of-type(2) td {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
